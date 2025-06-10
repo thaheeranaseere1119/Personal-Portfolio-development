@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+    <style>
+      body {
+        background-color: rgb(247, 244, 244);
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      header {
+        background-color: rgb(26, 26, 85);
+        color: aliceblue;
+        padding: 20px;
+        text-align: center;
+      }
+
+      nav {
+        text-align: center;
+        margin-top: 10px;
+      }
+
+      nav a {
+        color: aliceblue;
+        padding: 10px 20px;
+        text-decoration: none;
+        display: inline-block;
+      }
+
+      nav a:hover {
+        color: rgb(173, 173, 173);
+      }
+
+      .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 40px;
+        gap: 40px;
+        flex-wrap: wrap;
+      }
+
+      .info {
+        flex: 1;
+        min-width: 300px;
+      }
+
+      .info h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+
+      .info h2 {
+        color: #0d0d0d;
+        margin-top: 20px;
+      }
+
+      .image {
+        flex: 1;
+        min-width: 300px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      .image img {
+        width: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>My Projects</h1>
+      <nav>
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="info">
+        <h1>Here are some of the projects I have worked on:</h1>
+
+        <h2>Word Search Game</h2>
+        <p>
+          Interactive word search puzzle using backtracking on 2D matrix grid.
+        </p>
+        <p>Technologies: Node.js, React.js</p>
+
+        <h2>Hotel Management System</h2>
+        <p>Room and food booking interface using DSA concepts.</p>
+        <p>Technologies: HTML, CSS</p>
+
+        <h2>Personal Notes Management System</h2>
+        <p>Note creation and management interface.</p>
+        <p>Technologies: HTML, CSS</p>
+
+        <h2>Gun Detection System</h2>
+        <p>Detects guns using OpenCV and Python camera integration.</p>
+
+        <h2>Recipe Book</h2>
+        <p>CRUD operations for recipes via simple UI.</p>
+        <p>Technologies: HTML, CSS, JavaScript</p>
+
+        <h2>Personal Portfolio</h2>
+        <p>My professional website with projects, resume and contact form.</p>
+        <p>Technologies: HTML, CSS, JavaScript</p>
+        <a href="https://github.com/thaheeranaseere1119">My github link</a>
+      </div>
+
+      <div class="image">
+        <img
+          src="https://thewordsearch.com/v4/img/word-search-puzzle.png"
+          alt="Word Search"
+          height="200"
+        />
+        <img
+          src="https://www.hotelsreservationsystem.com/trvx-static-asset-files/images/hotel-management-system-banner.jpg"
+          alt="Hotel Management"
+          height="200"
+        />
+        <img
+          src="https://user-images.githubusercontent.com/68187229/201477134-9be80d46-b7de-4244-9e42-e62200f19a0e.jpg"
+          alt="Notes System"
+          height="200"
+        />
+
+        <img
+          src="https://miro.medium.com/max/1400/0*knRpzycX3oVegWoU.png"
+          alt="Portfolio"
+        />
+        <a href="https://github.com/thaheeranaseere1119">My github link</a>
+      </div>
+    </div>
+  </body>
+</html>
